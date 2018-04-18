@@ -1,0 +1,52 @@
+.body {
+    background: #dddddd;
+}
+
+#box {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    /* width:80%; */
+}
+
+.header {
+    /* display:flex; */
+    background:#ffffff;
+}
+
+#headerName {
+    background:#cccccc;
+    float:left;
+    padding:3%;
+    color: #ffffff;
+    /* margin-right:40%; */
+}
+
+#headerLinks{
+    /* width:40%; */
+}
+
+#about {
+    float:right;
+    padding:2%;
+    color: #4aaaa5;
+}
+#portfolio {
+    float:right;
+    padding:2%;
+    color: #4aaaa5;
+}
+#contact {
+    float:right;
+    padding:2%;
+    color: #4aaaa5;
+}
+
+.main {
+    clear:both;
+    background: #ffffff;
+}
+
+#aboutHeader{
+    color: #4aaaa5
+}
