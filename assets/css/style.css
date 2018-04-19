@@ -46,6 +46,7 @@
     border: 1px solid #4aaaa5;
     padding:12px;
     margin-top:64px;
+    margin-bottom:64px;
     overflow:hidden;
 }
 
@@ -64,7 +65,7 @@
     padding: 20px;
 }
 
-#aboutImg {
+.img {
     float: left;
     margin-right:20px;
     margin-bottom: 10px;
@@ -85,4 +86,16 @@
     text-align: center;
     font-size: 8pt;
     color: #4aaaa5;
+}
+
+.portfolioImgField{
+    /* width:320px;
+    height:240px; */
+    overflow:hidden;
+    /* width:320px; */
+}
+
+.portfolioImgText{
+    /* position:relative; */
+    /* bottom:0; */
 }
