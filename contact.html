@@ -30,16 +30,25 @@
     <div class="primaryMargins">
         <br>
         <main class="mainBox">
-            <h1 id="mainHeader">Contact</h1>
-            <article id="articleContent">
+            <h1 class="mainHeader">Contact</h1>
+            <article class="articleContent">
                 <br>
-                <p>
+                <section class="inputLabel">
+                    Name
+                </section>
+                <input class="inputBox" type="text" name="enterName" placeholder="Jane Smith">
 
-                </p>
-                <br>
-                <p>
+                <section class="inputLabel">
+                    Email
+                </section>
+                <input class="inputBox" type="text" name="enterEmail" placeholder="example@email.com">
 
-                </p>
+                <section class="inputLabel">
+                    Message
+                </section>
+                <textarea class="textBox" type="text"></textarea>
+                
+                <button id="contactSubmitBtn">Submit</button>
             </article>
         </main>
     </div>
