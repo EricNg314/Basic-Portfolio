@@ -16,12 +16,14 @@ a.highlight:hover{
 }
 
 .header {
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
     background-color:#ffffff;
     width:100%;
     border-bottom: 2px solid #4aaaa5;
     overflow:hidden;
-    position:relative;
+    z-index: 999;
+    /* position:relative; */
 }
 
  .headerName {
@@ -51,7 +53,7 @@ a.highlight:hover{
     background: #ffffff;
     border: 1px solid #4aaaa5;
     padding:12px;
-    margin-top:16px;
+    margin-top:64px;
     margin-bottom:64px;
     overflow:hidden;
     position:relative;
@@ -110,6 +112,10 @@ a.highlight:hover{
     padding-bottom:10px;
     width:100%;
     margin-bottom:3%; 
+}
+
+#verticalImg {
+    clear:both;
 }
 
 .inputLabel{
